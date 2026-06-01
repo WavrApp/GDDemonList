@@ -4,7 +4,7 @@
 
 const DEMONS = [
   // ── MAIN LIST (1–75) ──────────────────────────────────────
-  { rank: 1,   name: "Ton 618",               creator: "Exen",           list: "main" },
+  { rank: 1,   name: "Ton 618",               creator: "Arctic and Pooch",           list: "main" },
   { rank: 2,   name: "Thinking Space II",      creator: "Atomic",         list: "main" },
   { rank: 3,   name: "Tidal Wave",             creator: "OniLink",        list: "main" },
   { rank: 4,   name: "Nullscapes",             creator: "Kiba",           list: "main" },
