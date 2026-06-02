@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Demon List — Hardest GD Levels</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="scanlines"></div>
+
+  <header>
+    <div class="header-bg"></div>
+    <div class="header-content">
+      <div class="skull-icon">💀</div>
+      <h1>DEMON<span class="accent">LIST</span></h1>
+      <p class="subtitle">The Hardest Geometry Dash Levels — Ranked by the Community</p>
+      <div class="header-stats">
+        <span>150 RANKED DEMONS</span>
+        <span class="sep">|</span>
+        <span>MAIN LIST: #1–75</span>
+        <span class="sep">|</span>
+        <span>EXTENDED LIST: #76–150</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search demon levels..." autocomplete="off"/>
+      <div class="filter-btns">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="main">Main List</button>
+        <button class="filter-btn" data-filter="extended">Extended List</button>
+      </div>
+    </div>
+
+    <div class="list-header">
+      <span class="col-rank">RANK</span>
+      <span class="col-thumb">PREVIEW</span>
+      <span class="col-name">LEVEL NAME</span>
+      <span class="col-creator">CREATOR</span>
+      <span class="col-difficulty">DIFFICULTY</span>
+      <span class="col-featured">FEATURED</span>
+      <span class="col-tier">TIER</span>
+    </div>
+
+    <div id="demon-list"></div>
+  </main>
+
+  <footer>
+    <p>Based on <a href="https://pointercrate.com/demonlist/" target="_blank">pointercrate.com/demonlist</a> — Community-maintained ranking of the hardest Geometry Dash levels</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
